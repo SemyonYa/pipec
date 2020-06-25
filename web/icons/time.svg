@@ -3,10 +3,10 @@
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#F9FAF2;stroke-width:32;stroke-linecap:square;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#FF3399;stroke-width:32;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FF3399;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;}
 </style>
-<title>ionicons-v5-j</title>
-<line class="st0" x1="27.5" y1="127.9" x2="484.5" y2="127.9"/>
-<line class="st0" x1="27" y1="256" x2="484" y2="256"/>
-<line class="st0" x1="27" y1="388" x2="336.4" y2="388"/>
+<title>ionicons-v5-c</title>
+<path class="st0" d="M256,64C150,64,64,150,64,256s86,192,192,192s192-86,192-192S362,64,256,64z"/>
+<polyline class="st1" points="256,128 256,272 352,272 "/>
 </svg>

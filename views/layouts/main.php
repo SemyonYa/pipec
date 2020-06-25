@@ -20,6 +20,9 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -49,8 +52,17 @@ AppAsset::register($this);
 <div id="menu-back" class="menu-back" onclick="hideMenu()"></div>
 <div id="menu" class="menu">
     <div class="menu-title">Меню</div>
-    <div class="menu-item" onclick="selectMenuItem(event)"></div>
-    <div class="menu-item" onclick="selectMenuItem(event)"></div>
-    <div class="menu-item" onclick="selectMenuItem(event)"></div>
-    <div class="menu-item" onclick="selectMenuItem(event)"></div>
+    <div class="menu-item" onclick="selectMenuItem(event)" data-link="#home"><img src="/web/icons/home.svg" alt=""></div>
+    <div class="menu-item" onclick="selectMenuItem(event)" data-link="#why">Почему</div>
+    <div class="menu-item" onclick="selectMenuItem(event)"  data-link="#home">qwerty</div>
+    <div class="menu-item">Записаться на курс</div>
+</div>
+
+
+<div class="modal fade" id="pipecModal" tabindex="-1" role="dialog" aria-labelledby="pipecModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+    </div>
+  </div>
 </div>
